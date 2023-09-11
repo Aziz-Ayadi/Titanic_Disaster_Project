@@ -50,7 +50,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 ## Model Building
 
-After making all those changes on the data wrangling process and because our data is already divided into training and test sets, we tried nine different classification estimators and evaluated them by calculating their capacity to train on the data (calculating train accuracy) to make sure we didn't encounter UNDERFITTING during the operation of training :
+After making all those changes on the data wrangling process and because our data is already divided into training and test sets, we tried nine different classification estimators and evaluated them by calculating their capacity to train on the data (calculating train accuracy) to make sure we did avoid UNDERFITTING during the operation of training :
 * Logistic Regression
 * K-nearest neighbors
 * Support Vector Machine
@@ -63,7 +63,7 @@ After making all those changes on the data wrangling process and because our dat
 
 ## Model Performance
 
-The decision tree and random forest models had the best training accuracy and much better than all the other models.
+The decision tree and random forest models had the best training accuracy which means they are the best classifiers for our problem.
 * Decision Tree & Random Forest : training accuracy = 86.64 %
 * KNN & SVM : training accuracy = 82.83 %
 * Logistic Regression : training accuracy = 81.37 %
