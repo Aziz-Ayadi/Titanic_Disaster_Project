@@ -47,3 +47,16 @@ I looked at the distributions of the data and the value counts for the various c
 <b>Survived by age and Passengers class :</b> <br><img src='survived_by_age_and_Pclass.png'><br><br>
 <b>Survived by Sex, Port of Emarkation and Passengers class :</b> <br><img src='survived_by_Sex_Embarked_and_Pclass.png'><br><br>
 <b>Survived by Sex, Port of Embarkation and Fare :</b> <br><img src='survived_by_Sex_Embarked_and_Fare.png'>
+
+## Model Building
+
+After making all those changes on the data wrangling process and because our data is already divided into training and test sets, we tried nine different classification estimators and evaluated them by calculating their capacity to train on the data (calculating train accuracy) to make sure we didn't encounter UNDERFITTING during the operation of training :
+* Logistic Regression
+* K-nearest neighbors
+* Support Vector Machine
+* Linear Support Vector Machine
+* Gaussian Naive Bayes
+* Perceptron
+* Stochastic Gradient Descent
+* Decision Tree
+* Random Forest
