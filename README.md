@@ -60,3 +60,14 @@ After making all those changes on the data wrangling process and because our dat
 * Stochastic Gradient Descent
 * Decision Tree
 * Random Forest
+
+## Model Performance
+
+The decision tree and random forest models had the best training accuracy and much better than all the other models.
+* Decision Tree & Random Forest : training accuracy = 86.64 %
+* KNN & SVM : training accuracy = 82.83 %
+* Logistic Regression : training accuracy = 81.37 %
+* Linear SVC : training accuracy = 79.46 %
+* Perceptron : training accuracy = 79.35 %
+* Stochastic Gradient Descent : training accuracy = 78.68 %
+* Gaussian Naive Bayes : training accuracy = 76.88 %
