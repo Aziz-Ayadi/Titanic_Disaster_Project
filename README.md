@@ -7,6 +7,22 @@
 
 ## Code and Resources used
 
-<b>Python Version :</b>3.9
-<b>Packages :</b>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, random
+<b>Python Version :</b>3.9<br>
+<b>Packages :</b>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, random<br>
 <b>For Web Framework Requirements:</b> <code>pip install -r requirements.txt</code>
+
+## Data Collection
+
+Collect data from kaggle website so that training dataset has 891 passengers and test dataset has 418 passengers. With each passenger, we got the folowing :
+* Passenger ID
+* Column on whether each passenger survived the catastrophy or not (only available for training data)
+* Passenger Class
+* Name
+* Sex
+* Age
+* Number of siblings and spouses
+* Number of parents and children
+* Type of ticket
+* How much a passenger paid for the trip (Fare)
+* Cabin used to sleep on the ship
+* Port of Embarkation
