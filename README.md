@@ -38,3 +38,12 @@ Clean the data up so that it was usable for our model. I made the following chan
 * Created an artificial feature that combines Age and Passenger Class (= Age * Pclass)
 * Created Age and Fare bands and ranges
 * Transformed every non-numerical feature (nominal, ordinal or scale based) to numerical because it will help our models in prediction process
+
+## EDA
+
+I looked at the distributions of the data and the value counts for the various categorical variables to get meaningful insights from our data. Below are the visualizations I made :
+
+<b>Survived by age :</b> <img src='survived_by_age.png'><br>
+<b>Survived by age and Passengers class :</b> <img src='survived_by_age_and_Pclass.png'><br>
+<b>Survived by Sex, Port of Emarkation and Passengers class :</b> <img src='survived_by_Sex_Embarked_and_Pclass.png'><br>
+<b>Survived by Sex, Port of Embarkation and Fare</b><img src='survived_by_Sex_Embarked_and_Fare.png'>
